@@ -1,0 +1,374 @@
+@import url(./front.css);
+.header_area .main_menu .navbar .navbar-brand{
+    padding: 0.2rem 0.5rem;
+}
+.header_area .main_menu .navbar{
+    padding: 1rem 20rem;
+}
+.header_area .main_menu .nav-item .nav-link{
+    font:normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color:rgb(185, 156, 156);
+}
+.header_area .main_menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.header_area .main_menu .navbar .navbar-brand .logo_title{
+   width: 100px;
+   height: 50px;
+}
+
+.header_area .main_menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+
+ .site-main .site-banner .site-title{
+    position: relative;
+    z-index: 3;  
+    margin-left: 50px;
+    margin-top: 1px;
+ }
+.site-main .site-banner .site-title {
+    height: 2px;
+    width: 22vw;
+    background-color: slategray;
+    display: inline-block;
+    position: relative;
+    z-index: 4; 
+}
+#timeline{
+    position: absolute;
+    margin-top: 54ex;
+    margin-left: 640px;
+    height: 900px;
+    width: 2px;
+    background-color: slategray;
+    display: inline-block;
+}
+#line1{
+   position: absolute;
+  
+   margin-left: 340px;
+   margin-top: 120px;
+   height: 180px;
+   width: 2px;
+   background-color: slategray;
+   display: inline-block;
+
+}
+#line2{
+   position: absolute;
+  
+   margin-left: 900px;
+   margin-top: 300px;
+   height: 180px;
+   width: 2px;
+   background-color: slategray;
+   display: inline-block;
+
+
+}
+#line3{
+   position: absolute;
+  
+   margin-left: 350px;
+   margin-top: 600px;
+   height: 100px;
+   width: 2px;
+   background-color: slategray;
+   display: inline-block;
+}
+ 
+.img{
+    position: absolute;
+    margin-top: 10px;
+    width: 230px;
+    height:230px;
+    margin-left: 60%;
+ }
+.img1{
+    margin-left: 600px;
+    width: 100px;
+    height:100px;
+
+ }
+ .img_me{
+     margin-left: 10ex;
+     margin-top: -420px;
+     margin-bottom: 7ex;
+    width: 260px;
+    height: 350px; 
+}
+.img2{
+    margin-left: 150ex;
+     margin-top: -16ex;
+    width: 100px;
+    height: 100px; 
+}
+.site-main1 .site-banner .site-title{
+   margin-top: -28ex;
+   margin-left: 65ex;
+}
+.icon_phone{
+   margin-left: -260px;
+   margin-top: -30px;
+   width: 30px;
+   height: 30px;
+}
+.mail_icon{
+   margin-left: -0ex;
+   width: 30px;
+   height: 30px;
+}
+.youtube_icon{
+   margin-left: 0ex;
+   width: 30px;
+   height: 30px;
+}
+.ig_icon{
+   margin-left: 0ex;
+   width: 30px;
+   height: 30px;
+}
+
+.site-main .site-banner .site-title h1{
+     
+     margin-top: -3ex;
+     font-size: 3rem;
+     
+ }
+ #title{
+    position:absolute;
+    margin-top: 1ex;
+    margin-left: 530px;
+    font-size: 2rem;
+     
+ }
+ #title3{
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 700px;
+    font-size: 2rem; 
+ }
+ .important .year2020{
+    margin-top: 15ex;
+    margin-left: 70px;
+    background-color: rgb(236, 203, 236);
+    width:530px;
+    height:250px;     
+ }
+ .important .year2020 .site-title h2{
+     background-color: rgb(190, 232, 248);
+     width: 70px;
+     height: 40px;
+     position: relative;
+     top: 3px;
+     left: 3px;
+    position:relative;
+    top:10px;
+    left: 490px;
+ }
+ .important .year2020 .site-title h4{
+    position:relative;
+    top:10px;
+    left:30px;
+ }
+ .important .year2018{
+   background-color: rgb(236, 203, 236);
+   width:530px;
+   height:320px;
+   margin-top: -3ex;
+   margin-left: 70px;
+   
+}
+.important .year2018 .site-title h2{
+    position:relative;
+    top:5px;
+    left:490px;
+    background-color: rgb(190, 232, 248);
+     width: 70px;
+     height: 40px;
+    
+}
+.important .year2018 .site-title h4{
+    position:relative;
+    top:10px;
+    left:30px;
+}
+.important .year2019{
+     margin-top: -10ex;
+     margin-left: 680px;
+     background-color:whitesmoke;
+     width:500px;
+     height: 280px;
+  }
+  .important .year2019 .site-title h2{
+    position:relative;
+    top:10px;
+    left:-2ex;
+    background-color: rgb(190, 232, 248);
+     width: 70px;
+     height: 40px;
+    
+ }
+ .important .year2019 .site-title h4{
+    position:relative;
+    top:10px;
+    left:50px;
+ } 
+ 
+ 
+ .important .year2017{
+    background-color: whitesmoke;
+    width:500px;
+    height:180px;
+    margin-top: -8ex;
+    margin-left: 680px;
+ }
+ .important .year2017 .site-title h2{
+    position:relative;
+    top:10px;
+    left:-2ex;
+    background-color: rgb(190, 232, 248);
+     width: 70px;
+     height: 40px;
+    
+ }
+ .important .year2017 .site-title h4{
+    position:relative;
+    top:10px;
+    left:50px;
+ } 
+ #block{
+    position: absolute;
+    width:70px;
+    height:330px;
+     background-color:rgb(226, 226, 226);
+ }
+ #block1{
+    position: absolute;
+    z-index: 2;  
+    width: 250px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 2ex;
+    background-color: antiquewhite;
+
+ }
+ #block2{
+    position: absolute;
+    z-index: 1;   
+    width: 200px;
+    height: 50px;
+    margin-top: 1px;
+    background-color:wheat;
+ }
+
+ #block_a{
+   position: absolute;
+    z-index: 1;   
+    width: 260px;
+    height: 50px;
+    margin-top: 4px;
+    margin-left: 900px;
+    margin-right: 20px;
+    background-color:rgb(216, 224, 206);
+ }
+ #block_b{
+   position: absolute;
+   z-index: 2;   
+   width: 180px;
+   height: 50px;
+   margin-top: 30px;
+   margin-left: 1050px;
+  
+   background-color:rgb(96, 100, 97);
+ }
+ 
+ #title2{
+     margin-top: 20px;
+    text-align:center;
+    font-size: 2rem;
+ }
+ .important .skill1 .site-title{
+    background-color: rgb(214, 249, 252);
+    width:500px;
+    height:150px;
+     margin-top: 40px;
+     margin-left: 360px;
+ }
+ .important .skill1 .site-title h4{
+    position:relative;
+    top:5px;
+    left:30px;
+ }
+ .important .skill1 .site-title h3{
+   margin-left: -10ex;   
+   background-color: rgb(252, 210, 217);
+   width: 100px;
+   height: 40px;
+   position:relative;
+    top:7px;
+    left:30px;
+}
+
+ .important .skill2 .site-title{
+    background-color: rgb(251, 255, 218);
+    width:660px;
+    height:250px;
+     margin-top: 40px;
+     margin-left: 280px;
+ }
+ .important .skill2 .site-title h4{
+    position:relative;
+    top:7px;
+    left:30px;
+ }
+ .important .skill2 .site-title h3{
+   margin-left: 60ex;   
+   background-color: rgb(252, 210, 217);
+   width: 180px;
+   height: 40px;
+   position:relative;
+    top:7px;
+    left:30px;
+ }
+
+ .important .skill3 .site-title{
+    background-color: rgb(214, 249, 252);
+    width:500px;
+    height:150px;
+     margin-top: 40px;
+     margin-left: 360px; 
+ }
+ .important .skill3 .site-title h3{
+   margin-left: -10ex;   
+   background-color: rgb(252, 210, 217);
+   width: 180px;
+   height: 40px;
+   position:relative;
+    top:7px;
+    left:30px;
+ }
+ .important .skill3 .site-title h4{
+    position:relative;
+    top:7px;
+    left:30px;
+ }
+ 
+ .important .aboutme .site-title h4{
+     margin-top: 70px;
+     margin-left: 460px;
+     margin-right: 140px;
+
+ }
+ 
